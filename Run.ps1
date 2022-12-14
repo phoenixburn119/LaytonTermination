@@ -181,6 +181,7 @@ Function ADPasswordReset {
         }
     } Else {
         Try {
+            # This sets a static password but a possible randomizer or a user input would be great options for the future.
             Set-ADAccountPassword -Identity $Global:TermUsername -Server laytutahdc01 -Reset -NewPassword (ConvertTo-SecureString -AsPlainText "RANDOMP@ssword!@#$" -Force)
             Write-Host "Password Reset" -ForegroundColor Green
             Write-Log "CHANGE-AD: Reset the password of $($Global:TermUsername) to the default term password."
