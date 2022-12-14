@@ -1,0 +1,10 @@
+TeamsUserWipe
+ADPasswordReset
+ADPropertyEditor
+ADOUEditor
+ExchangeAutoReply
+ExchangeDelegation
+ExchangeCancelMeetings
+ExchangeSignInBlocked
+ExchangeConvertToSharedMailbox
+AzureADRemoveLicenseGroup
